@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Sans serif';
+}
+
+#linea{
+    width: 100%;
+    height: 5px;
+    background: #086a87;
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    background: #0b2f3a;
+}
+
+#centro1{
+    width: 800px;
+    height: auto; 
+    overflow: hidden;
+    border: 1px;
+    margin: auto;
+}
+
+#header #centro1 #logo{
+    width: 200px;
+    border: 1px;
+    float: left;
+}
+
+#header #centro1 #logo h2,p{
+    color: #fff;
+}
+
+#header #centro1 #logo p{
+    margin-top: -20px;
+}
+
+
+#presentacion{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #064154;  
+}
+
+#presentacion #centro2{
+    width: 800px;
+    margin: auto;
+}
+
+#presentacion #centro2 #izquierda{
+    width: 290px;
+    margin: auto;
+    float: left;
+}
+
+#presentacion #centro2 #izquierda h2{
+    color: #fff;
+    font-weight: lighter;
+}
+
+.descripcion-pres{
+    color: #04b4ae;
+    text-align: left;
+}
+
+.img{
+    width: 300px;
+    height: 180px;
+    border: 3px solid #086a87;
+    margin: 20px opx;
+    float: right;
+}
+
+
+.hol{
+    width: 800px;
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.hol h3{
+    text-align: left;
+    font-size: 22px;
+    color: #0b651e;
+}
+
+.hol p{
+    color: #6e6e6e;
+    text-align: left;
+}
+
+.hola{
+    width: 300px;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+
+.llamanos{
+    color: rgb(6, 240, 248);
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #1A2849;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.llamano{
+    color: rgb(6, 240, 248);
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #1A2849;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+
+
+
+
+footer{
+    background: #203a43;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(6, 240, 248);
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid rgb(6, 240, 248);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #f3f0d5;
+}
+
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
